@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.input_boxes {
+  background-color: coral;
+  width: 400px;
+  margin-top: 30px;
+  float: left;
+}
+.input_boxes > input {
+  margin-top: 10px;
+  width: 250px;
+  height: 25px;
+}
+.input_boxes > select {
+  margin-top: 10px;
+}
+.input_boxes > button {
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.HeadingTab {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: rgb(5, 17, 182);
+  color: white;
+  font-weight: bold;
+}
+
+.main_box {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.img_box > img {
+  width: 100px;
 }

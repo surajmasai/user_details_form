@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "username": "Suraj Kumar",
+      "age": "12",
+      "address": "Anaith",
+      "department": "Backend",
+      "salary": "12211212",
+      "marital": true,
+      "file": "blob:http://localhost:3001/26f19a93-9f2b-4c2f-a9b9-e865ac0ac64a",
+      "id": 5
+    },
+    {
+      "username": "Kumar",
+      "age": "34",
+      "address": "Ara",
+      "department": "Fronted",
+      "salary": "10000",
+      "marital": false,
+      "file": "blob:http://localhost:3001/dafde322-8061-4ff8-a68b-92aac57df1df",
+      "id": 6
+    },
+    {
+      "username": "deepak",
+      "age": "24",
+      "address": "garhani",
+      "department": "designer",
+      "salary": "50000",
+      "marital": false,
+      "file": "blob:http://localhost:3001/ee23ea44-fa45-40ad-8f6c-0d0bef8bbab3",
+      "id": 7
+    },
+    {
+      "username": "ritu",
+      "age": "22",
+      "address": "garha",
+      "department": "designer",
+      "salary": "500002",
+      "marital": false,
+      "file": "blob:http://localhost:3001/017573d1-e2e8-4f82-8ec0-3f269f71fbb8",
+      "id": 8
+    }
+  ]
+}
